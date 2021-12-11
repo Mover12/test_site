@@ -3,6 +3,7 @@ var count_m = 0
 var stop_num = Math.floor(Math.random() * 100)
 var click = document.querySelector("#click")
 var hidden = document.querySelector("#hidden")
+var test = "test"
 
 function Click() {
     count += 1
