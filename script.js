@@ -1,6 +1,6 @@
 var count = 0
 var count_m = 0
-var stop_num = Math.floor(Math.random() * 100)
+var stop_num = Math.floor(Math.random() * 20)
 var click = document.querySelector("#click")
 var hidden = document.querySelector("#hidden")
 
@@ -16,7 +16,7 @@ function Click() {
         hidden.setAttribute("type", "hidden")
         hidden.setAttribute("class","reset")
         click.setAttribute("class","click")
-        stop_num = Math.floor(Math.random() * 100)
+        stop_num = Math.floor(Math.random() * 20)
         count_m = 0
         count = 0
     }
